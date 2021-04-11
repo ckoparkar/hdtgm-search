@@ -1,0 +1,90 @@
+.main-bg {
+    /* background-color: #2B4060; */
+    /* background-color: #333c57; */
+    /* background-color: seashell; */
+}
+
+.centered {
+    width: 60%;
+    margin:0 auto;
+}
+
+.writing-area {
+    background-color: white;
+    font-family: verdana;
+    font-size: 15px;
+}
+
+.my-info {}
+
+.profile-photo {
+    width: 160px;
+    height: 200px;
+    background: black;
+}
+
+.big-name {
+    font-size: 140%;
+    border-top: black 2px solid;
+    padding-top: 10px;
+}
+
+.medium-name {
+    font-size: 130%;
+    border-top: black 1px solid;
+    padding-top: 10px
+}
+
+hr.thin-line {
+    height:1px;
+    border:none;
+    background-color:black;
+}
+
+
+/* body { */
+/*     background-color:#eee; */
+/*     font-family:sans-serif; */
+/*     margin:0; */
+/* } */
+
+/* #text-filter { */
+/*     border:solid 1px #ccc; */
+/*     box-sizing:border-box; */
+/*     font:inherit; */
+/*     margin-bottom:.5em; */
+/*     padding:.25em .5em; */
+/*     width:100%; */
+/* } */
+
+/* ul#episodes-list { */
+/*     border:solid 1px #ccc; */
+/*     list-style:none; */
+/*     margin:0; */
+/*     overflow:auto; */
+/*     padding:0; */
+/*     li { */
+/*         padding:.25em .5em; */
+/*         &:nth-child(odd) { */
+/*             background-color:#eee; */
+/*         } */
+/*         span { */
+/*             display:inline-block; */
+/*             text-transform:uppercase; */
+/*             width:10em; */
+/*         } */
+/*     } */
+/* } */
+
+/* #count-message { */
+/*     color:#999; */
+/*     text-align:right; */
+/* } */
+
+/* .container { */
+/*     background-color:#fff; */
+/*     border:solid 1px #ccc; */
+/*     margin:2em; */
+/*     padding:1em; */
+/*     width:500px; */
+/* } */
