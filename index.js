@@ -96,9 +96,13 @@ const movieDb = require("./db");
         guests.classList.add("movie-guests");
 
         name.textContent = "#" + movie.id + " " + movie.name;
-        actors.textContent = "Starring: " + movie.actors.join(", ");
-        directors.textContent = "Directed By: " + movie.directors.join(", ");
-        if (movie.guests != null) {
+        if (movie.actors.length != 0) {
+            actors.textContent = "Starring: " + movie.actors.join(", ");
+        }
+        if (movie.directors.length != 0) {
+            directors.textContent = "Directed By: " + movie.directors.join(", ");
+        }
+        if (movie.guests.length != 0) {
             guests.textContent = "Episode Guests: " + movie.guests.join(", ");
         }
 
